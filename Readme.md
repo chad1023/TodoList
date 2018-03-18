@@ -1,6 +1,6 @@
 ## TodoList on the Android
 
-![](MainActivity.png)
+![](MainActivity.png){:height="50%" width="50%"}
  We can use the add icon on the actionbar to add the TODO
  Also, we can edit the TODO with the click interaction
 
