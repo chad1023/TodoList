@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="DEFAULT_COLOR"
+        android:title="@string/default_color"
+        android:summary="@string/default_color_summary">
+    </Preference>
+    <!-- android:entries 设定画面显示选项内容的阵列资源 -->
+    <!-- android:entriyValues 设定储存选项资料的阵列资源 -->
+    <!-- android:defaultValue 设定选项默认项目编号 -->
+    <ListPreference
+        android:key="DEFAULT_TIME"
+        android:title="@string/default_time"
+        android:summary="@string/default_time_summary"
+        android:entries="@array/time_string_array"
+        android:entryValues="@array/time_value_array"
+        android:defaultValue="5"
+        >
+
+    </ListPreference>
+</PreferenceScreen>

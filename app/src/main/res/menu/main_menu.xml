@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <!--<item-->
+        <!--android:id="@+id/search_item"-->
+        <!--android:showAsAction="always"-->
+        <!--android:icon="@android:drawable/ic_menu_search"-->
+        <!--android:title="SEARCH"-->
+        <!--android:onClick="clickMenuItem"-->
+        <!--/>-->
+
+    <item
+        android:id="@+id/add_item"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="ADD"
+        android:onClick="clickMenuItem"
+         />
+    <item
+        android:id="@+id/setting"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="SETTING"
+        android:onClick="clickMenuItem"
+        />
+    <!--<item-->
+        <!--android:id="@+id/revert_item"-->
+        <!--android:showAsAction="always"-->
+        <!--android:icon="@android:drawable/ic_menu_revert"-->
+        <!--android:title="REVERT"-->
+        <!--android:onClick="clickMenuItem"-->
+         <!--/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/delete_item"-->
+        <!--android:showAsAction="always"-->
+        <!--android:icon="@android:drawable/ic_menu_delete"-->
+        <!--android:title="DELETE"-->
+        <!--android:onClick="clickMenuItem"-->
+         <!--/>-->
+
+</menu>

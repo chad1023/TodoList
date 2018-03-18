@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="com.example.chad.myapplication.ItemActivity">
+
+
+    <TableRow>
+
+        <TextView
+            android:padding="6sp"
+            android:layout_margin="2sp"
+            android:background="@drawable/retangle_drawable"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/title_input"
+            android:padding="6sp"
+            android:layout_margin="2sp"
+            android:background="@drawable/retangle_drawable"
+            android:hint="@string/title_hint"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_margin="2sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/retangle_drawable"
+            android:padding="6sp"
+            android:text="@string/content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/content_input"
+            android:layout_margin="2sp"
+            android:layout_height="200sp"
+            android:background="@drawable/retangle_drawable"
+            android:hint="@string/content_hint"
+            android:padding="6sp"
+            android:layout_gravity="top"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/picture"
+                app:srcCompat="@drawable/ic_camera" />
+
+            <ImageButton
+                android:id="@+id/record"
+                app:srcCompat="@drawable/ic_mic" />
+
+            <ImageButton
+                android:id="@+id/location"
+                app:srcCompat="@drawable/ic_location" />
+            <ImageButton
+                android:id="@+id/alarm"
+                app:srcCompat="@drawable/ic_alarm" />
+
+            <ImageButton
+                android:id="@+id/color"
+                app:srcCompat="@drawable/ic_color" />
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cancelbutton"
+                android:padding="6sp"
+                android:layout_margin="2sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/confirmbutton"
+                android:padding="6sp"
+                android:layout_margin="2sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/confirm" />
+        </TableRow>
+
+    </TableLayout>
+
+</TableLayout>
